@@ -74,6 +74,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Muhammad Ayman" },
       { name: "theme-color", content: "#0b1220" },
+      { title: "Lovable App" },
+      { property: "og:title", content: "Lovable App" },
+      { name: "twitter:title", content: "Lovable App" },
+      { name: "description", content: "Builds a modern, responsive personal portfolio website from CV data, showcasing cybersecurity and software engineering expertise." },
+      { property: "og:description", content: "Builds a modern, responsive personal portfolio website from CV data, showcasing cybersecurity and software engineering expertise." },
+      { name: "twitter:description", content: "Builds a modern, responsive personal portfolio website from CV data, showcasing cybersecurity and software engineering expertise." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1d3a1ac-688a-44df-b065-2df283c1727d/id-preview-4cc866f0--739d142a-1afc-454e-b6a5-d68869c48872.lovable.app-1778351185591.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1d3a1ac-688a-44df-b065-2df283c1727d/id-preview-4cc866f0--739d142a-1afc-454e-b6a5-d68869c48872.lovable.app-1778351185591.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       {
